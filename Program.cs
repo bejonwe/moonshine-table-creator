@@ -26,7 +26,7 @@ namespace moonshine_table_creator
                 for (int i = 0; i < files.Length; i++)
                 {
                     string[] name = files[i].Split('.');
-                    line += name[0] + " | [![" + name[0] + " icon](../../raw/master/.PNG/" + files[i] + ")](../../blob/master/.PNG/" + files[i] + ") | ";
+                    line += name[0] + " | [![" + name[0] + " icon](../raw/master/.PNG/" + files[i] + ")](../blob/master/.PNG/" + files[i] + ") | ";
                     if (i != 0 && (i + 1) % 2 == 0)
                     {
                         file.WriteLine(line);
